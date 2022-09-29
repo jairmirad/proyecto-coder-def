@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(197, 210, 212, 1);
+}
+
+/* header */
+
+header {
+    background-color: rgba(101, 104, 190, 1);
+    font-family: 'Kalam', cursive;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 200px;
+    margin: 10px;
+    border: solid 2px black;
+    ;
+
+}
+
+ul {
+    list-style: none;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+
+}
+
+
+
+.buscador {
+    border: solid 2px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+
+}
+
+/* main */
+
+
+.textos-prin {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    text-decoration: underline 3px;
+
+}
+
+.foto-pelotaprin {
+    padding: 30px;
+    height: 50%px;
+    width: 100%;
+}
+
+
+
+.tarjeta {
+    background-color: white;
+    border: solid 2px black;
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    padding: 10px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+hr {
+    width: 100%;
+}
+
+.btn {
+
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.slider {
+    padding: 40px;
+    display: flex;
+    gap: 70px;
+}
+
+.slider2 {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 250px;
+    justify-content: center;
+}
+
+.nosotros-descrip{
+    display: flex;
+    justify-content: center;
+    border: solid 2px rgba(101, 104, 190, 1);
+    border-radius: 15px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+
+}
+
+.nosotros-text{
+    text-align: center;
+}
+
+
+.formulario-contacto{
+    border: solid 2px black ;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 100px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nombre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.telefono{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.asunto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.enviar{
+    margin-top: 20px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: rgba(101, 104, 190, 1);
+    height: 200px;
+
+}
+
+.footer2 {
+    background-color: rgba(101, 104, 190, 1);
+    height: 200px;
+
+}
+
+.ig {
+    padding: 30px;
+}
+
+.copy {
+    padding: 30px;
+}
+
+.face {
+    display: flex;
+    justify-content: right;
+}
