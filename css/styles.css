@@ -1,63 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-body{
+body {
     background-color: rgba(197, 210, 212, 1);
 }
 
-header{
+header {
     background-color: rgba(101, 104, 190, 1);
 }
 
 
-.navbar{
+.navbar {
     font-family: 'Kalam', cursive;
     font-size: 25px;
     overflow: auto;
 
 }
 
-.nav-link{
+.nav-link {
     color: black;
 }
 
 
 
-h1{
+h1 {
     font-family: 'Kalam', cursive;
     text-align: center;
     padding: 15px;
-    text-decoration: underline 3px ;
+    text-decoration: underline 3px;
 }
 
-.card{
+.card {
     margin: 20px;
     padding: 25px;
     border: solid 3px black;
 
 }
 
-.card-title{
+.card-title {
     text-align: center;
     text-decoration: underline;
 }
 
-.card-text{
+.card-text {
     text-align: center;
 }
 
-.tarjetas{
+.tarjetas {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-.btn{
+.btn {
     background-color: rgba(101, 104, 190, 1);
     border: solid 2px black;
     display: block;
@@ -66,16 +66,16 @@ h1{
 
 
 
-.form-floating{
+.form-floating {
     padding: 10px;
-    
+
 }
 
-.form-control{
+.form-control {
     text-align: center;
 }
 
-.formulario-contacto{
+.formulario-contacto {
     border: solid 3px;
     margin: 25px;
     border-radius: 15px;
@@ -83,22 +83,128 @@ h1{
     flex-direction: column;
     height: 500px;
 }
+
 /* footer */
 
-.footer{
+.footer {
     background-color: rgba(101, 104, 190, 1);
     bottom: 0;
     height: 200px;
     text-align: center;
 }
 
-.footer-con{
+.footer-con {
     background-color: rgba(101, 104, 190, 1);
-    position:absolute;
+    position: absolute;
     bottom: 0;
     width: 500px;
 }
 
-a{
+a {
     color: black;
 }
+
+/* css de antes */
+
+
+/* main */
+
+
+.textos-prin {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    text-decoration: underline 3px;
+
+}
+
+.foto-pelotaprin {
+    padding: 30px;
+    height: 50%;
+    width: 100%;
+}
+
+.container-2 {
+    row-gap: ;
+}
+
+    
+    .tarjeta {
+        background-color: white;
+        border: solid 2px black;
+        width: 250px;
+        height: 320px;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .btn {
+
+        border: solid 2px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .slider {
+        padding: 40px;
+        display: flex;
+        gap: 70px;
+    }
+
+    .slider2 {
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: auto;
+        gap: 250px;
+        justify-content: center;
+    }
+
+    .nosotros-descrip {
+        display: flex;
+        justify-content: center;
+        border: solid 2px rgba(101, 104, 190, 1);
+        border-radius: 15px;
+        background-color: white;
+
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+
+    }
+
+    .nosotros-text {
+        text-align: center;
+    }
+
+
+    .formulario-contacto {
+        border: solid 2px black;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 100px;
+        width: 500px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
