@@ -17,6 +17,7 @@ header{
 .navbar{
     font-family: 'Kalam', cursive;
     font-size: 25px;
+    overflow: auto;
 
 }
 
@@ -63,14 +64,41 @@ h1{
 
 }
 
-/* .slider{
-    padding: 40px;
-    display: flex;
-    grid-column: auto;
-} */
 
+
+.form-floating{
+    padding: 10px;
+    
+}
+
+.form-control{
+    text-align: center;
+}
+
+.formulario-contacto{
+    border: solid 3px;
+    margin: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
 /* footer */
 
 .footer{
     background-color: rgba(101, 104, 190, 1);
+    bottom: 0;
+    height: 200px;
+    text-align: center;
+}
+
+.footer-con{
+    background-color: rgba(101, 104, 190, 1);
+    position:absolute;
+    bottom: 0;
+    width: 500px;
+}
+
+a{
+    color: black;
 }
