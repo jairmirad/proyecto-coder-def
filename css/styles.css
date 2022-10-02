@@ -104,6 +104,23 @@ a {
     color: black;
 }
 
+.btn {
+
+    border: solid 2px rgba(101, 104, 190, 1);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(197, 210, 212, 1);
+    
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+
 /* css de antes */
 
 
@@ -145,19 +162,19 @@ a {
 
     }
 
-    hr {
-        width: 100%;
-    }
 
     .btn {
 
-        border: solid 2px;
+        border: solid 2px rgba(101, 104, 190, 1);
         border-radius: 10px;
         padding: 5px;
         margin: 5px;
         text-decoration: none;
         color: black;
+        background-color: rgba(197, 210, 212, 1);
+        
     }
+
 
     .slider {
         padding: 40px;
