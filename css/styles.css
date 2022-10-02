@@ -57,6 +57,9 @@ h1{
 }
 
 .btn{
+    background-color: rgba(101, 104, 190, 1);
+    border: solid 2px black;
+    display: block;
 
 }
 
