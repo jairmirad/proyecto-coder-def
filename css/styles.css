@@ -16,13 +16,15 @@ header{
 
 .navbar{
     font-family: 'Kalam', cursive;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
 .nav-link{
     color: black;
 }
+
+
 
 h1{
     font-family: 'Kalam', cursive;
@@ -51,6 +53,11 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+}
+
+.btn{
+
 }
 
 /* .slider{
