@@ -1,0 +1,15 @@
+.slider {
+    padding: 40px;
+    display: flex;
+    gap: 70px;
+}
+
+.slider2 {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 250px;
+    justify-content: center;
+}

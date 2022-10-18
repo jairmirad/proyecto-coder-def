@@ -57,14 +57,6 @@ h1 {
 
 }
 
-.btn {
-    background-color: rgba(101, 104, 190, 1);
-    border: solid 2px black;
-    display: block;
-
-}
-
-
 
 .form-floating {
     padding: 10px;
@@ -134,16 +126,10 @@ a {
 
 }
 
-.foto-pelotaprin {
-    padding: 30px;
-    height: 50%;
-    width: 100%;
-}
-
 
 
     
-    .tarjeta {
+    /* .tarjeta {
         background-color: white;
         border: solid 2px black;
         width: 250px;
@@ -158,7 +144,7 @@ a {
         justify-content: space-between;
         align-items: center;
 
-    }
+    } */
 
 
     .btn {

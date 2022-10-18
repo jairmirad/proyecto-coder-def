@@ -1,0 +1,19 @@
+$color-morado:rgba(101, 104, 190, 1);
+
+.footer {
+    background-color:$color-morado;
+    bottom: 0;
+    height: 200px;
+    text-align: center;
+}
+
+.footer-con {
+    background-color: $color-morado;
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+}
+
+a {
+    color: black;
+}

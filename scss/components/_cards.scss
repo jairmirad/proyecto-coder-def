@@ -1,0 +1,22 @@
+.card {
+    margin: 20px;
+    padding: 25px;
+    border: solid 3px black;
+
+}
+
+.card-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}

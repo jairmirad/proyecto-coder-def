@@ -1,0 +1,21 @@
+.form-floating {
+    padding: 10px;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.formulario-contacto {
+    border: solid 3px;
+    margin: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+}
