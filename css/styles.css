@@ -13,7 +13,7 @@
 }
 
 .formulario-contacto {
-  border: solid 3px;
+  border: solid 3px rgba(101, 104, 190, 1);
   margin: 25px;
   border-radius: 15px;
   display: flex;
@@ -116,10 +116,11 @@ h1 {
   justify-content: center;
 }
 
+
 .card {
   margin: 20px;
   padding: 25px;
-  border: solid 3px black;
+  border: solid 3px rgba(101, 104, 190, 1);
 }
 
 .card-title {
